@@ -1,7 +1,7 @@
 # UsersReduxDemo
 Redux Demo in SwiftUI
 ## [ Redux Architecture - SwiftUI on YouTube](https://youtu.be/OB6B-2Tf_o4)
-![](UsersReduxDemo/Resources/banner.png)(https://youtu.be/OB6B-2Tf_o4)
+[![](UsersReduxDemo/Resources/banner.png)](https://youtu.be/OB6B-2Tf_o4 "Click to Watch!")
 
 ## Architecture
 ![](UsersReduxDemo/Resources/Architecture.png)
