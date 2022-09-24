@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		043B5BE628DF610600CE0C8E /* Archtichture.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B5BE528DF610600CE0C8E /* Archtichture.png */; };
+		043B5BE628DF610600CE0C8E /* Architecture.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B5BE528DF610600CE0C8E /* Architecture.png */; };
+		043B5BE828DF6A6800CE0C8E /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B5BE728DF6A6800CE0C8E /* banner.png */; };
 		0443E29828DA3604000FAF00 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E29728DA3604000FAF00 /* AppStore.swift */; };
 		047BB67F28D8D7EF00C6DB4E /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BB67E28D8D7EF00C6DB4E /* UserListView.swift */; };
 		047BB68528D8E38500C6DB4E /* UserAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BB68428D8E38500C6DB4E /* UserAction.swift */; };
@@ -30,7 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		043B5BE528DF610600CE0C8E /* Archtichture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Archtichture.png; sourceTree = "<group>"; };
+		043B5BE528DF610600CE0C8E /* Architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Architecture.png; sourceTree = "<group>"; };
+		043B5BE728DF6A6800CE0C8E /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
 		0443E29728DA3604000FAF00 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		047BB67E28D8D7EF00C6DB4E /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		047BB68428D8E38500C6DB4E /* UserAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAction.swift; sourceTree = "<group>"; };
@@ -75,7 +77,8 @@
 		047BB68028D8DE4000C6DB4E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				043B5BE528DF610600CE0C8E /* Archtichture.png */,
+				043B5BE728DF6A6800CE0C8E /* banner.png */,
+				043B5BE528DF610600CE0C8E /* Architecture.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -263,7 +266,8 @@
 			files = (
 				0482628428D754A600DF1A7A /* Preview Assets.xcassets in Resources */,
 				0482628128D754A500DF1A7A /* Assets.xcassets in Resources */,
-				043B5BE628DF610600CE0C8E /* Archtichture.png in Resources */,
+				043B5BE628DF610600CE0C8E /* Architecture.png in Resources */,
+				043B5BE828DF6A6800CE0C8E /* banner.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
