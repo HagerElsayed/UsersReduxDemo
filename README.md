@@ -1,7 +1,7 @@
 # UsersReduxDemo
 Redux Demo in SwiftUI
 ## [ Redux Architecture - SwiftUI on YouTube](https://youtu.be/OB6B-2Tf_o4)
-![](UsersReduxDemo/Resources/banner.png)
+![](UsersReduxDemo/Resources/banner.png)(https://youtu.be/OB6B-2Tf_o4)
 
 ## Architecture
 ![](UsersReduxDemo/Resources/Architecture.png)
@@ -35,5 +35,5 @@ Middleware will allow you to enhance your store by hooking into and intercepting
 - created by Hager Elsayed
 
 ## Credits
-Users API consuming in this demo from ## [ this website ](https://gorest.co.in/public/v2/users)
+Users API consuming in this demo from [ this website ](https://gorest.co.in/)
 
