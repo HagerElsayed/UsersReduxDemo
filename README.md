@@ -6,6 +6,9 @@ Redux Demo in SwiftUI
 ## Architecture
 ![](UsersReduxDemo/Resources/Architecture.png)
 
+## Redux
+The main goal that Redux is trying to offer is predictable state management. The way that Redux tries to accomplish this is through having a single state tree. This state tree is an object that stores the entire state for an application. Now that all state is stored in one location
+
 ## Views
 Views have read-only access to the Application State and the only way to update the State is through a dispatcher, which we can call from the views.
 
