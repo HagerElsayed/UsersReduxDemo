@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 typealias Middleware<State, Action> = (State, Action) -> AnyPublisher<Action, Never>?
-func UserMiddleware(service: UsersService) -> Middleware<AppState, AppAction> {
+func UserMiddleware(service: UserLoader) -> Middleware<AppState, AppAction> {
     return { state, action in
         
         switch(action) {

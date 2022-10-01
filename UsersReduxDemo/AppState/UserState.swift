@@ -7,8 +7,15 @@
 
 import Foundation
 
-struct UserState {
+struct UserState: Equatable {
     var users:[User] = [User]()
     var isFetching = false
     var fetchError: String?
+    
+    public static func == (lhs: UserState, rhs: UserState) -> Bool {
+        lhs.users == rhs.users &&
+        lhs.isFetching == rhs.isFetching &&
+        lhs.fetchError == lhs.fetchError
+    }
+    
 }

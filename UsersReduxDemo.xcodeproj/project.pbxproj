@@ -10,6 +10,9 @@
 		043B5BE628DF610600CE0C8E /* Architecture.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B5BE528DF610600CE0C8E /* Architecture.png */; };
 		043B5BE828DF6A6800CE0C8E /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 043B5BE728DF6A6800CE0C8E /* banner.png */; };
 		0443E29828DA3604000FAF00 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E29728DA3604000FAF00 /* AppStore.swift */; };
+		0474E43728E0C27D0014FCB9 /* UsersReduxDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474E43628E0C27D0014FCB9 /* UsersReduxDemoTests.swift */; };
+		0474E43E28E0CACF0014FCB9 /* UserServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474E43D28E0CACF0014FCB9 /* UserServiceTests.swift */; };
+		0474E44128E0CB360014FCB9 /* UserLoaderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474E44028E0CB360014FCB9 /* UserLoaderMock.swift */; };
 		047BB67F28D8D7EF00C6DB4E /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BB67E28D8D7EF00C6DB4E /* UserListView.swift */; };
 		047BB68528D8E38500C6DB4E /* UserAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BB68428D8E38500C6DB4E /* UserAction.swift */; };
 		047BB68728D8E3FA00C6DB4E /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BB68628D8E3FA00C6DB4E /* AppAction.swift */; };
@@ -28,12 +31,28 @@
 		0482629528D7559500DF1A7A /* FailableCodableArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482629428D7559500DF1A7A /* FailableCodableArray.swift */; };
 		0482629728D755AC00DF1A7A /* FailableDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482629628D755AC00DF1A7A /* FailableDecodable.swift */; };
 		0482629A28D7579000DF1A7A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482629928D7579000DF1A7A /* Color+Extension.swift */; };
+		04E82C6328E377040063C55C /* NetworkingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E82C6228E377040063C55C /* NetworkingHelper.swift */; };
+		04E82C6528E377830063C55C /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E82C6428E377830063C55C /* TestHelper.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0474E43828E0C27D0014FCB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0482627128D754A100DF1A7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0482627828D754A200DF1A7A;
+			remoteInfo = UsersReduxDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		043B5BE528DF610600CE0C8E /* Architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Architecture.png; sourceTree = "<group>"; };
 		043B5BE728DF6A6800CE0C8E /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
 		0443E29728DA3604000FAF00 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		0474E43428E0C27D0014FCB9 /* UsersReduxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsersReduxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0474E43628E0C27D0014FCB9 /* UsersReduxDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersReduxDemoTests.swift; sourceTree = "<group>"; };
+		0474E43D28E0CACF0014FCB9 /* UserServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceTests.swift; sourceTree = "<group>"; };
+		0474E44028E0CB360014FCB9 /* UserLoaderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoaderMock.swift; sourceTree = "<group>"; };
 		047BB67E28D8D7EF00C6DB4E /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		047BB68428D8E38500C6DB4E /* UserAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAction.swift; sourceTree = "<group>"; };
 		047BB68628D8E3FA00C6DB4E /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
@@ -53,9 +72,18 @@
 		0482629428D7559500DF1A7A /* FailableCodableArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailableCodableArray.swift; sourceTree = "<group>"; };
 		0482629628D755AC00DF1A7A /* FailableDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailableDecodable.swift; sourceTree = "<group>"; };
 		0482629928D7579000DF1A7A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		04E82C6228E377040063C55C /* NetworkingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingHelper.swift; sourceTree = "<group>"; };
+		04E82C6428E377830063C55C /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0474E43128E0C27D0014FCB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0482627628D754A200DF1A7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,6 +94,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0474E43528E0C27D0014FCB9 /* UsersReduxDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0474E43F28E0CB220014FCB9 /* Stubs */,
+				0474E43628E0C27D0014FCB9 /* UsersReduxDemoTests.swift */,
+				0474E43D28E0CACF0014FCB9 /* UserServiceTests.swift */,
+				04E82C6428E377830063C55C /* TestHelper.swift */,
+			);
+			path = UsersReduxDemoTests;
+			sourceTree = "<group>";
+		};
+		0474E43F28E0CB220014FCB9 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				0474E44028E0CB360014FCB9 /* UserLoaderMock.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
 		047BB67D28D8D7D800C6DB4E /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				0482627B28D754A200DF1A7A /* UsersReduxDemo */,
+				0474E43528E0C27D0014FCB9 /* UsersReduxDemoTests */,
 				0482627A28D754A200DF1A7A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				0482627928D754A200DF1A7A /* UsersReduxDemo.app */,
+				0474E43428E0C27D0014FCB9 /* UsersReduxDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +194,7 @@
 		0482627B28D754A200DF1A7A /* UsersReduxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04E82C6128E376ED0063C55C /* Utilis */,
 				047BB69528D8EC2500C6DB4E /* Store */,
 				047BB69228D8E89000C6DB4E /* Middlewares */,
 				047BB68D28D8E5A500C6DB4E /* Reducers */,
@@ -206,9 +256,35 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		04E82C6128E376ED0063C55C /* Utilis */ = {
+			isa = PBXGroup;
+			children = (
+				04E82C6228E377040063C55C /* NetworkingHelper.swift */,
+			);
+			path = Utilis;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0474E43328E0C27D0014FCB9 /* UsersReduxDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0474E43A28E0C27D0014FCB9 /* Build configuration list for PBXNativeTarget "UsersReduxDemoTests" */;
+			buildPhases = (
+				0474E43028E0C27D0014FCB9 /* Sources */,
+				0474E43128E0C27D0014FCB9 /* Frameworks */,
+				0474E43228E0C27D0014FCB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0474E43928E0C27D0014FCB9 /* PBXTargetDependency */,
+			);
+			name = UsersReduxDemoTests;
+			productName = UsersReduxDemoTests;
+			productReference = 0474E43428E0C27D0014FCB9 /* UsersReduxDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0482627828D754A200DF1A7A /* UsersReduxDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0482628728D754A600DF1A7A /* Build configuration list for PBXNativeTarget "UsersReduxDemo" */;
@@ -236,6 +312,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					0474E43328E0C27D0014FCB9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 0482627828D754A200DF1A7A;
+					};
 					0482627828D754A200DF1A7A = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -255,11 +335,19 @@
 			projectRoot = "";
 			targets = (
 				0482627828D754A200DF1A7A /* UsersReduxDemo */,
+				0474E43328E0C27D0014FCB9 /* UsersReduxDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0474E43228E0C27D0014FCB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0482627728D754A200DF1A7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +362,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0474E43028E0C27D0014FCB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0474E44128E0CB360014FCB9 /* UserLoaderMock.swift in Sources */,
+				0474E43E28E0CACF0014FCB9 /* UserServiceTests.swift in Sources */,
+				0474E43728E0C27D0014FCB9 /* UsersReduxDemoTests.swift in Sources */,
+				04E82C6528E377830063C55C /* TestHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0482627528D754A200DF1A7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,6 +380,7 @@
 				0482628F28D7550200DF1A7A /* UserService.swift in Sources */,
 				047BB68F28D8E5BD00C6DB4E /* UserReducer.swift in Sources */,
 				047BB67F28D8D7EF00C6DB4E /* UserListView.swift in Sources */,
+				04E82C6328E377040063C55C /* NetworkingHelper.swift in Sources */,
 				0482627F28D754A200DF1A7A /* ContentView.swift in Sources */,
 				0482627D28D754A200DF1A7A /* UsersReduxDemoApp.swift in Sources */,
 				047BB68728D8E3FA00C6DB4E /* AppAction.swift in Sources */,
@@ -300,7 +400,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0474E43928E0C27D0014FCB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0482627828D754A200DF1A7A /* UsersReduxDemo */;
+			targetProxy = 0474E43828E0C27D0014FCB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0474E43B28E0C27D0014FCB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.UsersReduxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsersReduxDemo.app/UsersReduxDemo";
+			};
+			name = Debug;
+		};
+		0474E43C28E0C27D0014FCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.UsersReduxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsersReduxDemo.app/UsersReduxDemo";
+			};
+			name = Release;
+		};
 		0482628528D754A600DF1A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -441,7 +583,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,13 +611,22 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0474E43A28E0C27D0014FCB9 /* Build configuration list for PBXNativeTarget "UsersReduxDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0474E43B28E0C27D0014FCB9 /* Debug */,
+				0474E43C28E0C27D0014FCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0482627428D754A100DF1A7A /* Build configuration list for PBXProject "UsersReduxDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

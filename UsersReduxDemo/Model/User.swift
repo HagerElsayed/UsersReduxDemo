@@ -32,3 +32,8 @@ struct User: Decodable, Hashable {
     }
     
 }
+extension User {
+    static let mockedData: [User] = [
+        User(id: 1, name: "Hager", email: "hager@gmail.com", gender: "female", status: "")
+    ]
+}

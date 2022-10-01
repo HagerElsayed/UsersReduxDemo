@@ -7,6 +7,10 @@
 
 import Foundation
 
-struct AppState {
+struct AppState: Equatable {
     var user: UserState
+    
+    public static func == (lhs: AppState, rhs: AppState) -> Bool {
+        lhs.user == rhs.user
+    }
 }
